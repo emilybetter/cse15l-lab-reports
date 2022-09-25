@@ -10,3 +10,6 @@ this is also __bold__
 ## other heading
 
 [Link](http://google.com)
+
+
+![Image](https://en.wikipedia.org/wiki/Calculator#/media/File:Casio_calculator_JS-20WK_in_201901_002.jpg)
