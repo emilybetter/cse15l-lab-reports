@@ -1,5 +1,8 @@
 testing view
 
 
-this is *italic* /n
+this is *italic* 
 this is **bold**
+this is also __bold__
+
+# testing heading
