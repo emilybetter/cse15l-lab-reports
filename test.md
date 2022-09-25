@@ -1,5 +1,5 @@
 testing view
 
 
-this is *italic*
+this is *italic* /n
 this is **bold**
