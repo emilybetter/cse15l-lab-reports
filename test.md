@@ -12,4 +12,4 @@ this is also __bold__
 [Link](http://google.com)
 
 
-![Image](https://en.wikipedia.org/wiki/Calculator#/media/File:Casio_calculator_JS-20WK_in_201901_002.jpg)
+![Image](https://github.com/emilybetter/cse15l-lab-reports/blob/main/calculator.jpeg)
