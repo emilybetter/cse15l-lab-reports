@@ -29,3 +29,5 @@ picture of calculator:
 
 
 ---
+
+`Inline code` uses `backticks`
