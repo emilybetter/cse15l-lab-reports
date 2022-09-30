@@ -2,18 +2,12 @@
 
 ###### Part 1- Installing Visual Studio Code
 
+Go to the Visual Studio Code website. Click on the corresponding link  to download VSC onto your computer.
+[Link](https://code.visualstudio.com/download)
+![Image](Screen Shot 2022-09-30 at 13.36.51.png)
+Once you download and open VSC, it should look something like this.
+![Image](Screen Shot 2022-09-30 at 13.51.50.png)
 
-![Image](
-
-this is *italic* 
-this is **bold**
-this is also __bold__
-
-# testing heading
-
-
-picture
-![Image]((https://github.com/emilybetter/cse15l-lab-reports/blob/main/Screen%20Shot%202022-09-30%20at%2013.36.51.png)
 
 
 
