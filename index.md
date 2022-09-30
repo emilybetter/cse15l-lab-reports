@@ -1,11 +1,3 @@
-hello world
 
+[Lab Report 1](lab-report-1.md)
 
-VCS editing
-
-**bold**
-
-
-[Link](lab-report-1.md)
-
-test
