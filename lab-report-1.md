@@ -3,7 +3,7 @@
 ###### Part 1- Installing Visual Studio Code
 
 Go to the Visual Studio Code website. Click on the corresponding link  to download VSC onto your computer.
-[Link](https://code.visualstudio.com/download)
+[VCS](https://code.visualstudio.com/download)
 ![Image](Screen Shot 2022-09-30 at 13.36.51.png)
 Once you download and open VSC, it should look something like this.
 ![Image](Screen Shot 2022-09-30 at 13.51.50.png)
