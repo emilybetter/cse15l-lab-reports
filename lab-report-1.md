@@ -13,7 +13,7 @@ this is also __bold__
 
 
 picture
-![Image](Screen Shot 2022-09-30 at 13.36.51.png)
+![Image]((https://github.com/emilybetter/cse15l-lab-reports/blob/main/Screen%20Shot%202022-09-30%20at%2013.36.51.png)
 
 
 
