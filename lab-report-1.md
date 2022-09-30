@@ -3,18 +3,17 @@
 ###### Part 1- Installing Visual Studio Code
 
 
+![Image](
+
 this is *italic* 
 this is **bold**
 this is also __bold__
 
 # testing heading
 
-## other heading
 
-[Link](http://google.com)
-
-picture of calculator:
-![Image](Screen Shot 2022-09-30 at 13.13.48.png)
+picture
+![Image]((https://github.com/emilybetter/cse15l-lab-reports/blob/main/Screen%20Shot%202022-09-30%20at%2013.36.51.png)
 
 
 
