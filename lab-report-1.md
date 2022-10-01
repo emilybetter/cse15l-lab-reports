@@ -10,7 +10,7 @@ Once you download and open VSC, it should look something like this.
 
 
 ###### Part 2- Remotely Connecting
-Start by finding your course specific account. Go to [Link](https://sdacs.ucsd.edu/~icc/index.php) and fill out your information. You should then see a page like this.
+Start by finding your course specific account. Go to the [Account Lookup](https://sdacs.ucsd.edu/~icc/index.php) page and fill out your information. You should then see a page like this.
 ![Image](Screen Shot 2022-09-29 at 21.13.18.png)
 
 
