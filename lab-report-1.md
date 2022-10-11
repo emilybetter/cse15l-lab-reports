@@ -19,13 +19,10 @@ Replace "zz" with the letters in your course specific account. I was unable to l
 ![Image](remote_login.png)
 
 ###### Part 3- Trying Some Commands
-Try some commands in both your computer and the remote computer. Terminal --> Split Terminal allows you to have two terminals side by side. I logged into ssh on one, and compared the commands on each side by side.
-
-My computer:
+Try some commands in both your computer and the remote computer. Terminal --> Split Terminal allows you to have two terminals side by side. I logged into ssh on one, and compared the commands on each side by side.  My computer:
 I printed the working directory (pwd), listed (ls), changed directory to home (cd ~) and then listed again.
 ![Image](home_commands.png)
-
-Remote login:
+  Remote login:
 On the remote, I used the same commands to see how they worked differently than on my home computer. I printed the working directory, listed, changed directory to home, and then listed again.
 ![Image](remote_commands.png)
 
