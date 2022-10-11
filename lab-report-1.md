@@ -49,8 +49,8 @@ Then copy the file to the remote server with this command, replacing 'cs15lfa22z
 ![Image](remote_scp.png)
 
 ###### Part 5- Setting an SSH Key
-In terminal, type the command: ` ssh-keygen`
-When given the prompt `Enter file in which to save the key` press `enter` again to specify the default path 
+In terminal, type the command: `ssh-keygen`
+When given the prompt `Enter file in which to save the key press `enter` again to specify the default path 
 ![Image](key_gen.png)
 
 Then use these commands to copy the public key to the .ssh directory onto your account on the server.
