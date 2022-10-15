@@ -59,7 +59,10 @@ There is, so the value of url.gethPath() is going to be /add and the value of ur
 Then, url.getQuery() is ?s=first. It splits this String from the =, and parameters[0] is going to store the first string (s), 
 so parameters[0].equals("s") is true and parameters[1] (in this case, 'second') is added to the list of Strings. These values stay the same until I make a new request.
 ![Image](lab_3_add_second.png)
-Adding "irksome":
+In this screenshot I am calling the handleRequest method. First the method checks if there is a path after '/'. 
+There is, so the value of url.gethPath() is going to be /add and the value of url.getPath().contains("/add") is true. 
+Then, url.getQuery() is ?s=irksome. It splits this String from the =, and parameters[0] is going to store the first string (s), 
+so parameters[0].equals("s") is true and parameters[1] (in this case, 'irksome') is added to the list of Strings. These values stay the same until I make a new request.
 ![Image](lab_2_add_irksome.png)
 In this screenshot, I am calling the handleRequest method. The values of url.getPath() is /search and url.getPath().contains("/search") is true. Then, url.getQuery() is ?s=ir. It splits the string at the =, and so parameters[0] is s and parameters[1] is ir. It searches the stored list of strings, and in this case returns first and irksome because they both contain "ir." These values stay the same until I make a new request.
 ![Image](lab_2_search_ir.png)
