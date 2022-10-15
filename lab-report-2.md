@@ -71,37 +71,41 @@ In this screenshot, I am calling the handleRequest method. The values of url.get
 ## Part 2- Bugs
 ###### Bug 1: Reversed()
 The failure-inducing input:
-```@Test
+```
+@Test
   public void testReversed2() {
     int[] input1 = {1,2,3};
     assertArrayEquals(new int[]{3,2,1}, ArrayExamples.reversed(input1));
   }
-  ```
-The symptom: ```arrays first differed at element [0]; expected:<3> but was:<0> ```
+```
+The symptom: `arrays first differed at element [0]; expected:<3> but was:<0> `
 The bug: <br />
 The original code: 
-```static int[] reversed(int[] arr) {
+```
+static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
       arr[i] = newArray[arr.length - i - 1];
     }
     return arr;
   }
- ```
+```
  The fixed code:
- ```static int[] reversed(int[] arr) {
+```
+ static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
       newArray[i] = arr[arr.length - i - 1];
     }
     return newArray;
   }
-  ```
+ ```
 The function is assigning the value of the original array to the value of the new, empty array, so each element is zero (the function would return an array with all elements = 0). This is why we get the error that expected is 3 but actual is 0. Also, the method returns the original array instead of the new one.
 
 ###### Bug 2: filter()
 The failure-inducing input:
-```@Test
+```
+@Test
     public void testFilter() {
         ArrayList<String> actual = new ArrayList<String>();
         ArrayList<String> expected = new ArrayList<String>();
@@ -116,7 +120,8 @@ The failure-inducing input:
         StringChecker sc = new containsI();
         assertEquals(expected, ListExamples.filter(actual, sc));
 }
-  ```
+ 
+ 
 The symptom: ![Image](list_error.png)
 The bug: <br />
 The original code: 
@@ -132,7 +137,7 @@ The original code:
  ```
  The fixed code:
 ![Image](corrected_list_ex.png)
-The function is returning a new list that has all the elements of the input list for which the StringChecker returns true, and not the elements that return false, in the same order they appeared in the input list. But instead of appending the Strings to the list(to keep the same order they appeared in the input list), ```add(0,s)``` prepends the element instead. This is why we get [third, first] instead of the expected [first, third].
+The function is returning a new list that has all the elements of the input list for which the StringChecker returns true, and not the elements that return false, in the same order they appeared in the input list. But instead of appending the Strings to the list(to keep the same order they appeared in the input list), `add(0,s)` prepends the element instead. This is why we get [third, first] instead of the expected [first, third].
 
   
 
