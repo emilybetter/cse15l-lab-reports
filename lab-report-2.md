@@ -1,4 +1,4 @@
-#Lab Report 2
+# Lab Report 2
 
 ## Part 1- Simplest Search Engine
 The code for my Simplest Search Engine:
