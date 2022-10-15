@@ -79,7 +79,7 @@ The failure-inducing input:
   }
 ```
 The symptom: `arrays first differed at element [0]; expected:<3> but was:<0> `
-The bug: <br />
+<br />The bug: <br />
 The original code: 
 ```
 static int[] reversed(int[] arr) {
