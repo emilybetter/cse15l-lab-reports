@@ -109,6 +109,18 @@ This commands finds all the directories in the directory government.
 
 
 
+```
+Emilys-MacBook-Pro-4:technical emilybetter$ find ./government -type d
+#some lines printed
+journal.pbio.0020043.txt
+journal.pbio.0020046.txt
+journal.pbio.0020047.txt
+journal.pbio.0020052.txt
+#more lines printed 
+```
+
+
+
 
 ###### -newer
 ```
