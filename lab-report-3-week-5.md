@@ -110,15 +110,15 @@ This commands finds all the directories in the directory government.
 
 
 ```
-Emilys-MacBook-Pro-4:technical emilybetter$ find ./government -type d
+Emilys-MacBook-Pro-4:technical emilybetter$ find ./plos -type f
 #some lines printed
-journal.pbio.0020043.txt
-journal.pbio.0020046.txt
-journal.pbio.0020047.txt
-journal.pbio.0020052.txt
+./plos/journal.pbio.0020043.txt
+./plos/journal.pbio.0020046.txt
+./plos/journal.pbio.0020047.txt
+./plos/journal.pbio.0020052.txt
 #more lines printed 
 ```
-
+This command  prints all the files in technical/plos  
 
 
 
