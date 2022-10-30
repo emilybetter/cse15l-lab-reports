@@ -45,7 +45,7 @@ Emilys-MacBook-Pro-4:technical emilybetter$ find . -size +5M
 
 ```
 
-This command finds all the files in the chosen directory that have a size greater than 1MB. You can also find files that are greater than size x and less than size y.
+This command finds all the files in the chosen directory that have a size greater than 5MB. You can also find files that are greater than size x and less than size y.
 
 
 ```
