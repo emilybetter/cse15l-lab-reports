@@ -1,7 +1,7 @@
 # Lab Report 3
 In this lab report, I will be exploring 3 command line options for the find command through some examples in `./technical`
 
-```
+
 This command finds all the files which are modified more than x days back. In this example, x is 5 days. You can also find files which are modified greater than y days ago, or files which are modified more than x days back and less than y days.
 
 ###### -size
