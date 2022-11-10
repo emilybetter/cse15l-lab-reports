@@ -3,7 +3,7 @@
 In DocSearchServer.java, change the name of the start parameter of getFiles, and all of its uses, to instead be called base.
 
 The shortest sequence of vim commands that we came up with for this task was:  
-`:` `1` `2` `,` `2` `3` `s` `/` `s` `t` `a` `r` `t` `/` `b` `a` `s` `e` `/` `g` `<Enter>`
+`:` `1` `2` `,` `2` `3` `s` `/` `s` `t` `a` `r` `t` `/` `b` `a` `s` `e` `/` `g` `<Enter>` <br />
 This is a total of 21 keys pressed.<br />
 `:s/searchString/replaceString/g` replaces a string across the whole file (g means global).  <br />  
 `[a,b]` replaces between lines a and b<br />
