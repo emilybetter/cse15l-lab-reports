@@ -4,4 +4,4 @@ In DocSearchServer.java, change the name of the start parameter of getFiles, and
 
 : 1 2 , 3 0 s / \ < s t a r t \ > / b a s e / g I <Enter>
   
-`:``1``2``,``2``3``s``/``s``t``a``r``t``/``b``a``s``e``/``g``<Enter>`
+`:` `1``2``,``2``3``s``/``s``t``a``r``t``/``b``a``s``e``/``g``<Enter>`
