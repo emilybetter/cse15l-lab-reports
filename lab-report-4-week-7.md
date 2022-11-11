@@ -17,7 +17,6 @@ After replacing:
 ![Image](after_enter.png)
 
 ### Part 2
-Consider performing the edit task you chose and re-running the program when you have to run it remotely. Time yourself twice:
 Starting in VSC and making the edit, then scp'ing the file and running it on the remote server took about 45 seconds for me to do.
 Starting logged into ssh, then making the edit in vim and running the test took about 20 seconds for me to do.
 
