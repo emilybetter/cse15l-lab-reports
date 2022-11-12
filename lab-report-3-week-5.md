@@ -2,7 +2,7 @@
 In this lab report, I will be exploring 3 command line options for the find command through some examples in `./technical`
 
 
-This command finds all the files which are modified more than x days back. In this example, x is 5 days. You can also find files which are modified greater than y days ago, or files which are modified more than x days back and less than y days.
+The size command can be used to find files of a certain size. You can have a lower bound (files greater than X size), an upper bound (files less than X size), or both (greater than X size and less than Y size). You can also use it with file extensions (.txt files greater than size X, etc). This command can be very useful if you need to sort by size, or find the biggest/smallest files in a directory.
 
 ###### -size
 ```
@@ -79,6 +79,9 @@ This command finds files whose size is greater than 1 kilobyte and also have an 
 
 
 ###### -type
+
+The type command can be used to find items of a certain file type. You can find directories, symbolic links, files, character devices, and more. This can be useful if you are searching a directory for all files of a certain extension, or searching a directory for all subdirectories with a certain permission, and many more options.
+
 ```
 Emilys-MacBook-Pro-4:technical emilybetter$ find . -type d
 .
@@ -118,11 +121,14 @@ Emilys-MacBook-Pro-4:technical emilybetter$ find ./plos -type f
 ./plos/journal.pbio.0020052.txt
 #more lines printed 
 ```
-This command  prints all the files in technical/plos  
+This command  prints all the files in technical/plos .
 
 
 
 ###### -newer
+
+The newer command is used to find files that are newer than the argument you give it. You can also do the opposite, and find everything that is older using the ! operator. This can be useful if you are trying to find the most recent files, or the oldest files in a directory.
+
 ```
 Emilys-MacBook-Pro-4:technical emilybetter$  find . -newer biomed/bcr567.txt
 #some files printed
