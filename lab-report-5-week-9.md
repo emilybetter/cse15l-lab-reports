@@ -47,8 +47,17 @@ fi
 exit
 ```
 
-The output for three different student repositories:
+The output for three different student repositories: <br />
 [Repository 1:](https://github.com/ucsd-cse15l-f22/list-methods-corrected)
+![Image](methods_corrected.png)
+
+[Repository 2:](https://github.com/ucsd-cse15l-f22/list-methods-compile-error)
+![Image](compile_error.png)
+
+[Repository 3:](https://github.com/ucsd-cse15l-f22/list-methods-filename)
+![Image](file_name.png)
+
+
 
 
 
