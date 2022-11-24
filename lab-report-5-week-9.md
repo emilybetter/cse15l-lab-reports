@@ -60,10 +60,14 @@ The output for three different student repositories: <br />
 
 
 ### Trace of grade.sh
-
-
-
-
-
-
-
+The trace of grade.sh on the [student repository](https://github.com/ucsd-cse15l-f22/list-methods-filename) with the wrong file name.
+On line number 2, the command `rm -rf` has no standard output, no error output, and an exit code of 0.
+On line number 3, the command `git clone` has a standard output of `Cloning into student-submission`, no error output, and an exit code of 0.
+On line number 5, the command `echo` has a standard output of `Cloning...`, no error output, and an exit code of 0.
+On line number 7, the command `cd` has no standard output, no error output, and an exit code of 0.
+On line number 9, the command `if` has no standard output, no error output, and an exit code of 1. The condition is false because the file name is incorrect.
+Lines 10 and 11 do not run because it is in an if branch that doesn't evaluate.
+On line number 12, the command `else` has no standard output, no error output, and an exit code of 0.
+On line number 13, the command 'echo' has a standard output of `File not found. 0/5 Final Grade`, no error output, and an exit code of 0.
+On line number 14, the command `exit` has no standard output, no error output, and an exit code of 1.
+The rest of the lines in the file do not run because of the early exit.
