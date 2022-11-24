@@ -35,9 +35,9 @@ fi
 
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples > grade.txt
 
-OK=$(grep -c OK grade.txt)
+PASSED=$(grep -c OK grade.txt)
 
-if [ $OK -eq 1 ]
+if [ $PASSED -eq 1 ]
 then
     echo "Pass. At least 3/5 Final Grade"
 else
@@ -46,4 +46,15 @@ fi
 
 exit
 ```
+
+The output for three different student repositories:
+[Repository 1:](https://github.com/ucsd-cse15l-f22/list-methods-corrected)
+
+
+
+
+
+
+
+
 
