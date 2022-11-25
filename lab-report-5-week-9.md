@@ -41,7 +41,7 @@ if [ $PASSED -eq 1 ]
 then
     echo "Pass. At least 3/5 Final Grade"
 else
-    echo "Pass. At least 3/5 Final Grade"
+    echo "Fail. Less than 3/5 Final Grade"
 fi
 
 exit
